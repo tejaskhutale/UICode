@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'poppins';
+}
+
+.main_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0abde3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_header h1 {
+  font-size: 3rem;
+  color: #000;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.main_header h1:hover {
+  color: #341f97;
+}
+
+.main_header h1::after {
+  color: #341f97;
+}
+
+.main_header p {
+  font-size: 2rem;
+  color: #000;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.main_header .customStyle {
+  margin-top: 5rem;
+}
+
+.customBtn {
+  height: 4rem;
+  font-size: 1.4rem;
+  font-family: poppins;
+}
+/*# sourceMappingURL=main.css.map */

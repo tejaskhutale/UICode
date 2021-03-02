@@ -1,0 +1,8 @@
+//mixin with parameter
+@mixin innerElements($param1, $fontSize) {
+    font-size: $fontSize;
+    color: $intialColor;
+    letter-spacing: $param1;
+    // Pseudo-class added and nesting of elements
+  
+}

@@ -1,0 +1,45 @@
+@import "common/color";
+@import "common/mixin";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'poppins';
+}
+.main_header {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: $bgcolor;
+    flex-direction: column;
+    h1 {
+       @include innerElements(0.6rem, 3rem);
+       text-transform: uppercase;
+       margin-bottom: 0.5rem;
+       &:hover {
+        color: $afterColor;
+    }
+       &::after {
+        color: $afterColor;
+    }
+      
+    }
+    p {
+        @include innerElements(0.1rem, 2rem);
+        text-transform: capitalize;
+    }
+    .customStyle {
+        margin-top: 5rem;
+    }
+}
+
+.customBtn {
+    height: 4rem;
+    font-size: 1.4rem;
+    font-family: poppins;
+}
